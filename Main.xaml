@@ -66,11 +66,7 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="592,2106.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="URL">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">https://www.google.com/</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="https://www.google.com/" Name="URL" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -226,7 +222,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:ExcelSetRangeColor Color="[System.Drawing.Color.Yellow]" DisplayName="Set Range Color" sap:VirtualizedContainerService.HintSize="283.2,188" sap2010:WorkflowViewState.IdRef="ExcelSetRangeColor_1" Range="A1:E1" SheetName="Sheet1" />
+                      <ui:ExcelSetRangeColor Color="[System.Drawing.Color.Pink]" DisplayName="Set Range Color" sap:VirtualizedContainerService.HintSize="283.2,188" sap2010:WorkflowViewState.IdRef="ExcelSetRangeColor_1" Range="A1:E1" SheetName="Sheet1" />
                     </Sequence>
                   </ActivityAction>
                 </ui:ExcelApplicationScope.Body>
