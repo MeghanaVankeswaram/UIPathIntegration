@@ -1,10 +1,11 @@
 {
-  "name": "Demo",
+  "name": "Gmail",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.Mailchimp.IntegrationService.Activities": "[3.0.1]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.UIAutomation.Activities": "[22.4.4]"
   },
@@ -12,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.1.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "e30cb56b-4d54-45bc-ace5-6e5d6ec23edc",
+      "uniqueId": "4600fd1f-8119-4608-a2a1-156930591402",
       "input": [],
       "output": []
     }
